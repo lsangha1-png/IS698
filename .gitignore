@@ -1,0 +1,17 @@
+# Terraform sensitive/auto-generated files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.retry.log
+crash.log
+*.pem
+*.tfvars
+*.auto.tfvars
+
+# Providers downloaded locally
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# OS/Editor metadata
+.DS_Store
+Thumbs.db
